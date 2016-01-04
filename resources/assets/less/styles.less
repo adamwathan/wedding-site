@@ -3,7 +3,7 @@
 
 html {
     font-family: "futura-pt", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(0,0,0,0.85);
     line-height: 1.5;
 }
@@ -100,10 +100,17 @@ html {
     border: 1px solid #ddd;
     .wt-hvy;
 }
+.btn-lg {
+    font-size: (22/18) * 1rem;
+}
 .btn-primary {
     background-color: #ffaba9;
     border-color: #ffaba9;
     color: #fff;
+    &:focus, &:active, &:hover {
+        background-color: darken(#ffaba9, 5%);
+        border-color: darken(#ffaba9, 5%);
+    }
 }
 .btn-block {
     display: block;

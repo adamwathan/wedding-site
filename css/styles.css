@@ -425,7 +425,7 @@ ul {
 }
 html {
   font-family: "futura-pt", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.85);
   line-height: 1.5;
 }
@@ -528,10 +528,19 @@ html {
   border: 1px solid #ddd;
   font-weight: 700;
 }
+.btn-lg {
+  font-size: 1.22222222rem;
+}
 .btn-primary {
   background-color: #ffaba9;
   border-color: #ffaba9;
   color: #fff;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: #ff928f;
+  border-color: #ff928f;
 }
 .btn-block {
   display: block;
